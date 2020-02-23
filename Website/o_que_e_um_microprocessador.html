@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Microprocessadores - O que é um Microprocessasdor?</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="O melhor site sobre Microprocessadores! :)"/>
+		<meta name="keywords" content="cpu, microprocessador"/>
+		<meta name="author" content="Rodrigo Silva"/>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+
+	<body>
+
+		<div class="topnav">
+			<a href="index.html" target="_self">Início</a>
+			<a class="active" href="o_que_e_um_microprocessador.html" target="_self">O que é um Microprocessador?</a>
+			<a href="historia.html" target="_self">História do Microprocessador</a>
+			<a href="como_sao_fabricados.html" target="_self">Como são fabricados Microprocessadores?</a>
+			<a href="arquitetura_de_von_neumann.html" target="_self">Arquitetura de von Neumann</a>
+			<a href="mapa.html" target="_self">Mapa do Site</a>
+		</div>
+
+		<h1>O que é um Microprocessador?</h1>
+
+		<img class="cover" src="img/cpu.jpg" alt="CPU">
+
+		<button onclick="topFunction()" id="Button">Voltar para cima</button>
+		<script src="js/button.js"></script>
+
+		<p>Um CPU muitas vezes chamado de processador ou microprocessador é o cérebro de um PC. O componente principal de um processador é o transístor. Um processador tem milhões de transístores podendo realizar milhões de operações por segundo.<br>
+		Devido ao desenvolvimento dos processadores, houve um avanço tecnológico na matemática, medicina, engenharia e no ensino.<br>
+		<br>Vejamos então as características mais importantes associadas a um CPU:
+		<br>	•	<strong>Velocidade de relógio</strong> – é a velocidade de processamento no interior do CPU;
+		<br>	•	<strong>Largura dos canais de comunicação</strong> – forma como os diversos componentes do interior e exterior do CPU estão interligados<br>
+
+		<br>A velocidade de um processador (velocidade de relógio) é muito importante para o comportamento do computador em aplicações mais exigentes. A sua velocidade é medida em Hz, em homenagem a Heinrich Rudolf Hertz físico alemão que pela primeira vez comprovou a existência de radiação eletromagnética. Hz ou ciclos por segundo (s-1) é o inverso do período.<br>
+
+		<br>F=1/T<br>
+
+		<br>Assim 1hz = 1 ciclo/s e um CPU com velocidade de 100Hz executa 100 ciclos por segundo, enquanto um processador de 3,2GHz executa 3,2 biliões de ciclos por segundo.<br>
+		Para além da velocidade do processador, o seu desempenho está associado também à largura dos canais de comunicação, como já se referiu.<br>
+		<br>Este depende dos seguintes fatores:
+		<br>	•	<strong>Registos internos</strong> – indica o número de bits com que o CPU trabalha de cada vez;
+		<br>	•	<strong>Barramento de Endereços (Address Bus)</strong> – são linhas ou pistas de comunicação através das quais o CPU acede a posições da memória, ou dispositivos de Entrada/Saída, para onde pretende enviar ou ler informação de nossa casa, porque são barramentos onde circulam endereços. Por exemplo, um carteiro só pode deixar uma carta em nossa casa se souber a morada. O mesmo acontece neste barramento, apenas são passados endereços ao qual se pretende aceder (para ler ou escrever). É por essa razão que o barramento é unidirecional. No respeitante ao acesso à memória, o número de linha do barramento defina a quantidade de memória que o CPU consegue endereçar. Por exemplo, o microprocessador 8086 tinha um bus de endereços de 20 bits, logo podia endereçar até 220, isto são 1.048.576 bytes ou 1MB de memória RAM. Se estiverem disponíveis no sistema 2MB de memória o 8086 não os irá utilizar, uma vez que apenas consegue “ver” 1MB no total. O Intel 486 com um barramento de endereços de 32 bits permite endereçar 232, ou seja, 4GB de memória;
+		<br>	•	<strong>Barramentos de dados</strong> – Este é o barramento que interliga o CPU e a memória RAM (ou chipset da motherboard de nome Memory Controller Hub ou North Bridge). Canal físico (pistas) de comunicação de dados entre o interior e o exterior do CPU. O número de pistas determina a quantidade de informação que o CPU pode mover de cada vez de/para a memória. Por este barramento, circulam ainda dados referentes a dispositivos de I/O<br>
+
+		<br>Resumindo, o processador comunica com os componentes exteriores através dos barramentos (BUS).<br>
+		Cada BUS tem um número de pistas associadas que mais não é do que a quantidade de bits que pode transportar em simultâneo. Quanto maior for o número de pistas, mais informação o CPU consegue enviar/receber do/para o exterior.
+		Apesar de não estar diretamente associado ao desempenho do processador existe outro barramento importante sobretudo para controlar as ações em curso.
+		Barramento de controlo – barramento responsável por coordenar/sincronizar todo o fluxo de informação do sistema, como por exemplo, leitura e escrita na memória ou portas de I/O, atendimento de interrupções, etc.
+
+		<br>A forma como o processador interage com o exterior está representado no esquema seguinte:<br></p>
+
+		<img class="cover" src="img/bus.jpg" alt="BUS">
+
+		<p>Como se pode verificar pelo esquema, apenas os barramentos de dados e controlo são bidirecionais. O barramento de endereços tem sempre o sentido CPU→Memória / I/O. Apenas o CPU pesquisa por endereços na memória ou nos dispositivos de I/O. O contrário não faz qualquer sentido, daí ser unidirecional.
+			Os registos internos são pequenas memórias de um determinado tamanho (hoje em dia 32 ou 64 bits) que definem o conjunto de bits com que trabalha o CPU de cada vez (por ciclo de relógio).<br> Por outras palavras, podemos dizer que através o tamanho dos registos é possível determinar a quantidade de informação com que o CPU consegue lidar internamente por ciclo de relógio.</p>
+
+		<div class="footer">
+		<p>Site criado por Rodrigo Silva com o objetivo de aprender e praticar usando a linguagem de programação HTML.</p>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Microprocessadores - Arquitetura de von Neumann</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="O melhor site sobre Microprocessadores! :)"/>
+		<meta name="keywords" content="cpu, microprocessador"/>
+		<meta name="author" content="Rodrigo Silva"/>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+
+	<body>
+
+		<div class="topnav">
+			<a href="index.html" target="_self">Início</a>
+			<a href="o_que_e_um_microprocessador.html" target="_self">O que é um Microprocessador?</a>
+			<a href="historia.html" target="_self">História do Microprocessador</a>
+			<a href="como_sao_fabricados.html" target="_self">Como são fabricados Microprocessadores?</a>
+			<a class="active" href="arquitetura_de_von_neumann.html" target="_self">Arquitetura de von Neumann</a>
+			<a href="mapa.html" target="_self">Mapa do Site</a>
+		</div>
+
+		<h1>Arquitetura de von Neumann</h1>
+
+		<img class="cover" src="img/von_neumann.jpg" alt="John von Neumann">
+
+		<button onclick="topFunction()" id="Button">Voltar para cima</button>
+		<script src="js/button.js"></script>
+
+		<p>Quando von Neumann surgiu com a sua proposta para mudar a arquitetura dos computadores, ainda estes eram baseados em relés eletromecânicos ou válvulas de vácuo realizando tarefas específicas, ficando aquém do esperado no que toca à resolução de problemas gerais.
+
+		John von Neumann, matemático húngaro, contribuiu significativamente para a criação do EDVAC (Electronic Discrete Variable Automatic Computer) e sobretudo para a mudança de um paradigma que impedia o desenvolvimento na área dos computadores. Pela primeira vez era apresentada uma arquitetura de um computador que continha um programas residente em memória em detrimento das ligações físicas usadas anteriormente. Isto foi o início de um abrir de portas à adaptação desta nova geração de computadores, a qualquer situação/problema bastando para isso, carregar em memória um novo conjunto de instruções que se pretendessem executar.
+		A arquitetura de von Neumann era também inovadora porque assentava em linguagem binária e pelo processamento ser realizado bit a bit (processamento em série) de forma a minimizar os recursos necessários. Claramente que de todas as características a mais marcante era mesmo a utilização de memória.
+		<br> A sua proposta era a seguinte:</p>
+
+		<img class="cover" src="img/arquitetura.jpg" alt="Arquitetura">
+
+		<p>Esta arquitetura apresentava os blocos que teriam as seguintes funções:
+			<br>	•	<strong>ALU ou ULA</strong> – Unidade Lógica e Aritmética – realizar operações aritméticas e operações lógicas;
+			<br>	•	<strong>UC – Unidade de Controlo</strong> – controlar toda a máquina, inclusive a ALU. Tratar do endereçamento da memória, enviar dados para a ALU, coordenar todas as operações que esta deve realizar, etc.;
+			<br>	•	<strong>Memória</strong> – armazenar as instruções para a realização de operações;
+			<br>	•	<strong>Entrada e Saída (Input/Output)</strong> – uma interface de comunicações com o exterior. Receber ou enviar dados através de dispositivos de entrada e saída<br>
+
+			<br>O primeiro computador a utilizar esta arquitetura foi como já referido, o EDVAC (1952), baseado ainda em válvulas eletrónicas. Com o aparecimento dos transístores esta arquitetura tomou ainda maior relevo. Atualmente, a maior parte dos microprocessadores baseiam-se nela, apresentado apenas ligeiras diferenças.<p>
+
+		<div class="footer">
+		<p>Site criado por Rodrigo Silva com o objetivo de aprender e praticar usando a linguagem de programação HTML.</p>
+		</div>
+
+	</body>
+</html>
