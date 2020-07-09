@@ -1,2 +1,2 @@
 # Microprocessadores
-WEbsite criado no âmbito curricular das disciplinas Arquitetura de Computadores e Redes de Comunicação
+Wusite criado no meu 11º ano no âmbito das disciplinas Arquitetura de Computadores e Redes de Comunicação
